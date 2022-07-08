@@ -1,0 +1,70 @@
+#contenedor {
+    padding: 2px;
+    border: 2px solid yellow;
+    background-color: black;
+    height: 416px;
+    width: 416px;
+    margin: auto;
+    vertical-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
+
+.elementos {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    /* position: absolute; */
+
+}
+
+#uno {
+    /* position: absolute; */
+    border: 2px dashed green;
+    /* top: 15px; */
+}
+
+#dos {
+    border: 2px dashed orange;
+    /* align-self: flex-end; */
+}
+
+#tres {
+    border: 2px dashed blue;
+}
+
+#cuatro {
+    border: 2px dashed red;
+    /* align-self: flex-start; */
+}
+
+
+
+
+
+/* .Parent {
+    border: 2px black dotted;
+    display: inline-block;
+    position: relative;
+}
+
+.Box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+
+#dos {
+    position: relative;
+    top: 25px; 
+    background-color: aqua;
+    bottom: 25px; 
+    left: 25px;
+    right: 25px; 
+} */
